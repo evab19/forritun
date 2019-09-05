@@ -4,17 +4,13 @@
 n = int(input("Enter the length of the sequence: "))
 
 first = 0
-second = 0
+second = 1
 third = 0
 
-for i in range(1, n+1):
+for i in range(0, n):
     summed = first + second + third
-    if (third == 0):
-        print(i)
-        summed = i
-    else:
-        print(summed)
-        summed = first + second + third
+    print(summed)
+        
     third = second
     second = first
     first = summed
