@@ -16,4 +16,4 @@ n = int(input("Input the length of Fibonacci sequence (n>=1): "))
 
 fibo = fibo()
 
-print(*fibo)
+print(fibo)

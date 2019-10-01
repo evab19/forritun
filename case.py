@@ -1,7 +1,6 @@
 def lower_case():
     count_lower = 0
     
-
     for char in user_input:
 
         if (char.islower()) == True:
