@@ -1,6 +1,5 @@
 import string
 
-
 def lower_case():
     lower_str = in_str.lower()
     bad_chars = string.whitespace + string.punctuation
